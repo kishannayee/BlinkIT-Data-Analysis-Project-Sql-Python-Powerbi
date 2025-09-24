@@ -11,7 +11,6 @@ Analyzing sales performance, customer satisfaction, and inventory efficiency to 
 - <a href="#dataset">Dataset</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#project-structure">Project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
 - <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
 - <a href="#dashboard">Dashboard</a>
@@ -32,13 +31,9 @@ Retail businesses like Blinkit face challenges in balancing sales growth, custom
 This project aims to:
 
 Analyze the impact of fat content, item type, and outlet establishment type on sales.
-
 Identify top-performing and underperforming outlets by size and location.
-
 Assess customer satisfaction using average ratings.
-
 Provide insights into sales distribution trends for better decision-making.
-
 Support inventory and resource allocation with data-driven insights.
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
@@ -97,17 +92,12 @@ blinkit-sales-analysis/
 
 Charts & Insights:
 
-Total Sales by Fat Content → Donut Chart
-
-Total Sales by Item Type → Bar Chart
-
-Fat Content by Outlet for Sales → Stacked Column Chart
-
-Sales Trend by Outlet Establishment Year → Line Chart
-
-Sales by Outlet Size → Pie/Donut Chart
-
-Sales by Location → Funnel Map
+- Total Sales by Fat Content → Donut Chart
+- Total Sales by Item Type → Bar Chart
+- Fat Content by Outlet for Sales → Stacked Column Chart
+- Sales Trend by Outlet Establishment Year → Line Chart
+- Sales by Outlet Size → Pie/Donut Chart
+- Sales by Location → Funnel Map
 
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
@@ -128,22 +118,17 @@ Sales by Location → Funnel Map
 KPI Variance by Attributes:
 
 Total Sales: Driven by outlet size & location.
-
 Average Sales: Higher in modern outlets.
-
 Number of Items: Larger outlets offer significantly more variety (p < 0.05).
-
 Average Rating: Statistically higher for fresh categories vs. packaged foods.
+
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
 The Power BI dashboard includes:
 
 - KPI Cards: Total Sales, Average Sales, Number of Items, Avg Rating
-
 - Sales distribution by Item Type & Fat Content
-
 - Outlet Size & Location comparison
-
 - Time-series analysis of sales trends
 
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
@@ -157,30 +142,20 @@ Place dataset into /data/ folder.
 
 Run preprocessing script:
 
-python scripts/preprocessing.py
-
-
-Open Jupyter notebooks to run EDA:
-
-notebooks/data_cleaning.ipynb
-
-notebooks/exploratory_analysis.ipynb
-
-Open Power BI file:
-
-dashboard/blinkit_sales_dashboard.pbix
+- python scripts/preprocessing.py
+- Open Jupyter notebooks to run EDA:
+- notebooks/data_cleaning.ipynb
+- notebooks/exploratory_analysis.ipynb
+- Open Power BI file:
+- dashboard/blinkit_sales_dashboard.pbix
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-Promote top-selling item types to maximize revenue.
-
-Introduce discounts or campaigns for underperforming outlets.
-
-Improve customer satisfaction by focusing on low-rated items.
-
-Optimize inventory for high-demand locations.
-
-Monitor outlet age vs. sales performance to guide future store openings.
+- Promote top-selling item types to maximize revenue.
+- Introduce discounts or campaigns for underperforming outlets.
+- Improve customer satisfaction by focusing on low-rated items.
+- Optimize inventory for high-demand locations.
+- Monitor outlet age vs. sales performance to guide future store openings.
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
@@ -188,3 +163,4 @@ Kishan Nayee
 Data Analyst | BI Enthusiast
 📧 Email: nayeekishan4@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/kishan-nayee-14789631a/)
+
